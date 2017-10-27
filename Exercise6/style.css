@@ -1,0 +1,42 @@
+body {
+  font-family: arial;
+  font-size: 22pt;
+  /*background-image: url(pokegifs/bg.jpg)*/;
+  background-color: #828282;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  /*color: #FFFFFF;*/
+  background: rgba(255, 255, 255, 0.75);
+  width:1300px;
+  height: 900px;
+  margin:0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #518ff7;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #b7b3b3;
+}
+
+tr:nth-child(odd){
+  background-color: #efefef;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
